@@ -1,0 +1,26 @@
+@media (max-width: 500px) {
+    .container {
+        flex-direction: column;
+        background-size: cover;
+        height: 1500px;
+        justify-content: center;
+    }
+
+    .orange {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 15px;
+    }
+
+    .dark-cyan {
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 0;
+    }
+
+    .car {
+        height: 450px;
+    }
+
+    button {
+        margin-bottom: 50px;
+    }
+}
